@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "kanbanfire-4331a": {
+      "hosting": {
+        "kanban-angular-firebase": [
+          "kanbanfire-4331a"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "kanbanfire-4331a"
+  }
+}

@@ -34,7 +34,7 @@
                 {
                   "type": "initial",
                   "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumError": "5mb"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -95,6 +95,16 @@
               "src/styles.css"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "kanban-angular-firebase:build:production",
+            "firebaseProject": "kanbanfire-4331a",
+            "firebaseHostingSite": "kanbanfire-4331a"
           }
         }
       }
